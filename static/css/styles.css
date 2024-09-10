@@ -12608,13 +12608,15 @@ nav .navbar-brand:active {
 
 /* NAVBAR CONTAINER */
 /* OTHERS */
-img {
-  width: 500px;
-  height: 500px;
+@media only screen and (min-device-width: 992px) {
+  img {
+    width: 500px;
+    height: 500px;
+    margin-right: 40px;
+  }
 }
-
 button {
-  width: 500px;
+  width: 100%;
 }
 
 .faq {
