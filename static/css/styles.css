@@ -12606,32 +12606,26 @@ nav .navbar-brand:active {
   font-size: 40px;
 }
 
-nav .navbar-toggler,
-nav .navbar-toggler:focus {
-  box-shadow: none;
-  background-color: #ffffff;
-}
-
-nav .dropdown-menu {
-  min-width: 0;
-  background-color: #a6b1e1;
-}
-
-nav .dropdown-item:active {
-  color: #4e4c67;
-  background-color: #ffffff;
-}
-
-@media only screen and (min-width: 992px) {
-  nav .dropdown:hover .dropdown-menu {
-    display: block;
-  }
-}
-nav .search-container {
-  position: relative;
-  width: 100%;
-}
-
 /* NAVBAR CONTAINER */
+/* OTHERS */
+img {
+  width: 500px;
+  height: 500px;
+}
+
+button {
+  width: 500px;
+}
+
+.faq {
+  border: 1px solid black;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+/* OTHERS */
 
 /*# sourceMappingURL=styles.css.map */

@@ -53,31 +53,25 @@ nav .navbar-brand:active {
   font-size: 40px;
 }
 
-nav .navbar-toggler,
-nav .navbar-toggler:focus {
-  box-shadow: none;
-  background-color: $white;
-}
-
-nav .dropdown-menu {
-  min-width: 0;
-  background-color: $peri;
-}
-
-nav .dropdown-item:active {
-  color: $violet;
-  background-color: $white;
-}
-
-@media only screen and (min-width: 992px) {
-  nav .dropdown:hover .dropdown-menu {
-    display: block;
-  }
-}
-
-nav .search-container {
-  position: relative;
-  width: 100%;
-}
-
 /* NAVBAR CONTAINER */
+
+/* OTHERS */
+img {
+  width: 500px;
+  height: 500px;
+}
+
+button {
+  width: 500px;
+}
+
+.faq {
+  border: 1px solid black;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0,0,0,.125);
+}
+
+/* OTHERS */
