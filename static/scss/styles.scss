@@ -1,0 +1,83 @@
+// Import Bootstrap's SCSS variables and functions
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+// Override Bootstrap variables here
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  // CUST
+  "lavender": #dcd6f7,
+  "peri": #a6b1e1,
+  "puce": #b4869f,
+  "rose": #985f6f,
+  "violet": #4e4c67,
+  // OTHERS
+  "red": #ff0000,
+  "cancel": #5d576b,
+  "delete": #ed5e68
+);
+
+$white: #ffffff;
+$black: #000000;
+// CUST
+$lavender: #dcd6f7;
+$peri: #a6b1e1;
+$puce: #b4869f;
+$rose: #985f6f;
+$violet: #4e4c67;
+
+$headings-margin-bottom: $spacer * 0;
+$headings-color: $violet;
+$paragraph-margin-bottom: $spacer * 0;
+$paragraph-color: $violet;
+$alert-border-radius: 0;
+
+// Import the rest of Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Custom styles
+/* NAVBAR CONTAINER */
+nav .navbar-brand,
+nav .navbar-brand:hover,
+nav .navbar-brand:focus,
+nav .navbar-brand:active {
+  color: $white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+nav .navbar-toggler,
+nav .navbar-toggler:focus {
+  box-shadow: none;
+  background-color: $white;
+}
+
+nav .dropdown-menu {
+  min-width: 0;
+  background-color: $peri;
+}
+
+nav .dropdown-item:active {
+  color: $violet;
+  background-color: $white;
+}
+
+@media only screen and (min-width: 992px) {
+  nav .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+nav .search-container {
+  position: relative;
+  width: 100%;
+}
+
+/* NAVBAR CONTAINER */

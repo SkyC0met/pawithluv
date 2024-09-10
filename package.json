@@ -1,0 +1,17 @@
+{
+  "name": "dog-treats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass static/scss/styles.scss:static/css/styles.css",
+    "watch-css": "sass --watch static/scss/styles.scss:static/css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.78.0"
+  }
+}
