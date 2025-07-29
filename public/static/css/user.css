@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* NAVBAR CONTAINER */
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active {
+  color: #b85b2f;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+}
+
+.nav {
+  display: block;
+  text-align: center;
+}
+
+@media only screen and (min-device-width : 320px) {
+  .nav {
+    display: flex;
+  }
+  
+}
+
+/* NAVBAR CONTAINER */
+
+/* OTHERS */
+@media only screen and (min-device-width : 992px) {
+  img {
+    width: 500px;
+    height: 500px;
+    margin-right: 40px;
+  }
+
+  .info {
+    width: 45%;
+  }
+}
+
+.faq {
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.heart {
+  height: 100px; 
+  width: 100px; 
+  object-fit: contain;
+}
+
+.btn {
+  width: 100%;
+  padding: 7px 0px;
+}
+
+.interest {
+  color: #1100ff;
+  border-bottom: 1px solid blue;
+}
+/* OTHERS */

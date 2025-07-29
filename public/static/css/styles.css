@@ -3186,6 +3186,25 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #985f6f;
 }
 
+/*##################################SKY ADDED THIS########################################*/
+.btn-paw {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #b85b2f;
+  --bs-btn-border-color: #b85b2f;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #b85b2f;
+  --bs-btn-hover-border-color: #b85b2f;
+  --bs-btn-focus-shadow-rgb: 167, 119, 133;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #b85b2f;
+  --bs-btn-active-border-color: #b85b2f;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #b85b2f;
+  --bs-btn-disabled-border-color: #b85b2f;
+}
+/*##################################SKY ADDED THIS########################################*/
+
 .btn-violet {
   --bs-btn-color: #fff;
   --bs-btn-bg: #4e4c67;
@@ -12596,38 +12615,5 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* NAVBAR CONTAINER */
-nav .navbar-brand,
-nav .navbar-brand:hover,
-nav .navbar-brand:focus,
-nav .navbar-brand:active {
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 40px;
-}
-
-/* NAVBAR CONTAINER */
-/* OTHERS */
-@media only screen and (min-device-width: 992px) {
-  img {
-    width: 500px;
-    height: 500px;
-    margin-right: 40px;
-  }
-}
-button {
-  width: 100%;
-}
-
-.faq {
-  border: 1px solid black;
-}
-
-.accordion-button:focus {
-  box-shadow: none;
-  border-color: rgba(0, 0, 0, 0.125);
-}
-
-/* OTHERS */
 
 /*# sourceMappingURL=styles.css.map */

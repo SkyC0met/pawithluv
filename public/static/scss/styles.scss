@@ -1,6 +1,6 @@
 // Import Bootstrap's SCSS variables and functions
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
 
 // Override Bootstrap variables here
 $theme-colors: (
@@ -40,41 +40,6 @@ $paragraph-color: $violet;
 $alert-border-radius: 0;
 
 // Import the rest of Bootstrap
-@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
 
 // Custom styles
-/* NAVBAR CONTAINER */
-nav .navbar-brand,
-nav .navbar-brand:hover,
-nav .navbar-brand:focus,
-nav .navbar-brand:active {
-  color: $white;
-  font-weight: bold;
-  font-size: 40px;
-}
-
-/* NAVBAR CONTAINER */
-
-/* OTHERS */
-@media only screen and (min-device-width : 992px) {
-  img {
-    width: 500px;
-    height: 500px;
-    margin-right: 40px;
-  }
-}
-
-button {
-  width: 100%;
-}
-
-.faq {
-  border: 1px solid black;
-}
-
-.accordion-button:focus {
-  box-shadow: none;
-  border-color: rgba(0,0,0,.125);
-}
-
-/* OTHERS */
